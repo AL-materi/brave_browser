@@ -1,24 +1,43 @@
 name: brave_browser
 description: Brave Browser clone with Flutter
-publish_to: 'none'
+publish_to: "none"
 version: 1.0.0+1
 
 environment:
-  sdk: '>=3.0.0 <4.0.0'
+  sdk: ">=3.0.0 <4.0.0"
 
 dependencies:
   flutter:
     sdk: flutter
-  
-  image_picker: ^1.0.4  
+
+  # --- مكتبات إدارة الحالة والترجمة ---
+  get: ^4.6.6
+
+  # --- مكتبات دعم اللغة العربية ---
+  flutter_localizations:
+    sdk: flutter
+  intl: ^0.20.2 # <-- تم التحديث هنا لحل المشكلة
+
+  # --- مكتبات الوسائط ---
+  image_picker: ^1.0.4
 
 dev_dependencies:
   flutter_test:
     sdk: flutter
   flutter_lints: ^2.0.0
 
+  # --- مكتبة أيقونة التطبيق ---
+  flutter_launcher_icons: ^0.13.1
+
 flutter:
   uses-material-design: true
 
   assets:
     - images/
+
+# --- إعدادات أيقونة التطبيق ---
+flutter_launcher_icons:
+  android: "launcher_icon"
+  ios: true
+  image_path: "images/icon.png"
+  min_sdk_android: 21

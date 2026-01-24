@@ -8,11 +8,12 @@ A mobile application project developed using **Flutter** and **GetX** architectu
 
 ## 📸 Screenshots | صور التطبيق
 
-|              Home & Drawer              |                Settings (Ar)                |               Login Screen               |
-| :-------------------------------------: | :-----------------------------------------: | :--------------------------------------: |
+| Home & Drawer | Settings (Ar) | Login Screen |
+| :---: | :---: | :---: |
 | <img src="images/home.jpg" width="200"> | <img src="images/settings.jpg" width="200"> | <img src="images/login.jpg" width="200"> |
 
-> **Note:** Please ensure screenshots are placed in the `images/` folder with names matching the table above (`home.jpg`, `settings.jpg`, `login.jpg`).
+> **Note:** Please ensure screenshots are placed in the `images/` folder.
+
 
 ---
 
@@ -64,3 +65,4 @@ lib/
 │   └── translations.dart  # Dictionary for Ar/En strings
 └── main.dart         # Entry point & Theme config
 ```
+
